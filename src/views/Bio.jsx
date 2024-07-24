@@ -1,5 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
+import { techStack } from "./constants";
 
 export default function Bio() {
     return (
@@ -33,15 +34,3 @@ export default function Bio() {
     );
   }
   
-const techStack = [
-    "HTML5",
-    "CSS",
-    "SASS",
-    "Tailwind",
-    "Javascript",
-    "React",
-    "Redux",
-    "Firebase",
-    "Nest JS",
-    "Adonis JS",
-];

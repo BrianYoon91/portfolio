@@ -1,34 +1,11 @@
 import React, { useState } from "react";
 import { Card } from "antd";
-import {
-  AndroidOutlined,
-  FolderOpenOutlined,
-  CoffeeOutlined,
-} from "@ant-design/icons";
-
-import { Bio, Contact } from "./views";
-
-const tabList = [
-  {
-    key: "bio",
-    label: "Bio",
-    icon: <AndroidOutlined />,
-  },
-  {
-    key: "projects",
-    label: "Projects",
-    icon: <FolderOpenOutlined />,
-  },
-  {
-    key: "contact",
-    label: "Contact",
-    icon: <CoffeeOutlined />,
-  },
-];
+import { Bio, Contact, Projects } from "./views";
+import { tabList } from "./views/constants";
 
 const contents = {
   bio: <Bio />,
-  projects: <h1>here are my projects</h1>,
+  projects: <Projects />,
   contact: <Contact />,
 };
 
