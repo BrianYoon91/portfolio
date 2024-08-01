@@ -1,9 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { contactArr } from "./constants";
 
 const Contact = () => {
-	const [hover, setHover] = useState(false);
-
 	return (
 		<div className="flex flex-col">
 			<h1 className="text-[#eebbc3]">Contact me!</h1>
@@ -16,6 +14,7 @@ const Contact = () => {
 						className="hover:text-[#eebbc3] transition-colors duration-300"
 						href={contact.link}
 						target={contact.type !== "email" ? "_blank" : null}
+						rel="noreferrer"
 					>
 						{contact.icon}
 					</a>
