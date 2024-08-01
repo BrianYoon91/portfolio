@@ -30,6 +30,7 @@ export const Projects = () => {
 										className="col-span-2 w-auto"
 										href={github}
 										target="_blank"
+										rel="noreferrer"
 									>
 										<Button
 											style={{
@@ -45,7 +46,12 @@ export const Projects = () => {
 											GitHub
 										</Button>
 									</a>
-									<a className="col-span-2 w-auto" href={live} target="_blank">
+									<a
+										className="col-span-2 w-auto"
+										href={live}
+										target="_blank"
+										rel="noreferrer"
+									>
 										<Button
 											style={{
 												backgroundColor: "#232946",
