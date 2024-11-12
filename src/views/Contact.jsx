@@ -13,8 +13,8 @@ const Contact = () => {
 					<a
 						className="hover:text-[#eebbc3] transition-colors duration-300"
 						href={contact.link}
-						target={contact.type !== "email" ? "_blank" : null}
-						rel="noreferrer"
+						target={contact.type !== "email" ? "_blank" : undefined}
+						rel={contact.type !== "email" ? "noreferrer" : undefined}
 					>
 						{contact.icon}
 					</a>

@@ -7,7 +7,7 @@ import {
 	CoffeeOutlined,
 } from "@ant-design/icons";
 
-import { excuseMe, spillTheBeans, hotArtist } from "../assets";
+import { excuseMe, spillTheBeans, hotArtist, thankful } from "../assets";
 
 export const tabList = [
 	{
@@ -96,6 +96,14 @@ export const projectArr = [
 			"https://github.com/BrianYoon91/brian-yoon-projectThree/tree/production",
 		live: "https://excuse-me.netlify.app/",
 		image: excuseMe,
+	},
+	{
+		name: "Thankful Mindful Grateful",
+		description:
+			"What we have around us is as important as what is to come. So once in a while write what you are thankful for and recite them to open up to newer and better things.",
+		github: "https://github.com/BrianYoon91/thankful-journal",
+		live: "https://thankful-mindful-grateful.netlify.app/",
+		image: thankful,
 	},
 	{
 		name: "Hot Artists",
