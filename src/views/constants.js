@@ -9,6 +9,15 @@ import {
 
 import { excuseMe, spillTheBeans, hotArtist, thankful } from "../assets";
 
+import { TiHtml5 } from "react-icons/ti";
+import { FaCss3Alt, FaReact, FaHtml5 } from "react-icons/fa";
+import { SiSass, SiRedux, SiNestjs, SiAdonisjs } from "react-icons/si";
+import {
+	RiTailwindCssFill,
+	RiJavascriptFill,
+	RiFirebaseFill,
+} from "react-icons/ri";
+
 export const tabList = [
 	{
 		key: "bio",
@@ -28,16 +37,16 @@ export const tabList = [
 ];
 
 export const techStack = [
-	"HTML5",
-	"CSS",
-	"SASS",
-	"Tailwind",
-	"Javascript",
-	"React",
-	"Redux",
-	"Firebase",
-	"Nest JS",
-	"Adonis JS",
+	{ lang: "HTML5", icon: <FaHtml5 /> },
+	{ lang: "CSS", icon: <FaCss3Alt /> },
+	{ lang: "SASS", icon: <SiSass /> },
+	{ lang: "Tailwind", icon: <RiTailwindCssFill /> },
+	{ lang: "Javascript", icon: <RiJavascriptFill /> },
+	{ lang: "React", icon: <FaReact /> },
+	{ lang: "Redux", icon: <SiRedux /> },
+	{ lang: "Firebase", icon: <RiFirebaseFill /> },
+	{ lang: "Nest Js", icon: <SiNestjs /> },
+	{ lang: "Adonis Js", icon: <SiAdonisjs /> },
 ];
 
 export const contactArr = [
