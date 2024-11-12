@@ -9,7 +9,6 @@ import {
 
 import { excuseMe, spillTheBeans, hotArtist, thankful } from "../assets";
 
-import { TiHtml5 } from "react-icons/ti";
 import { FaCss3Alt, FaReact, FaHtml5 } from "react-icons/fa";
 import { SiSass, SiRedux, SiNestjs, SiAdonisjs } from "react-icons/si";
 import {
