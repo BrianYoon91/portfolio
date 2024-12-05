@@ -15,8 +15,14 @@ import {
 	carbonDating,
 } from "../assets";
 
-import { FaCss3Alt, FaReact, FaHtml5 } from "react-icons/fa";
-import { SiSass, SiRedux, SiNestjs, SiAdonisjs } from "react-icons/si";
+import { FaCss3Alt, FaReact, FaHtml5, FaGithub } from "react-icons/fa";
+import {
+	SiSass,
+	SiRedux,
+	SiNestjs,
+	SiAdonisjs,
+	SiTypescript,
+} from "react-icons/si";
 import {
 	RiTailwindCssFill,
 	RiJavascriptFill,
@@ -47,11 +53,13 @@ export const techStack = [
 	{ lang: "SASS", icon: <SiSass /> },
 	{ lang: "Tailwind", icon: <RiTailwindCssFill /> },
 	{ lang: "Javascript", icon: <RiJavascriptFill /> },
+	{ lang: "Typescript", icon: <SiTypescript /> },
 	{ lang: "React", icon: <FaReact /> },
 	{ lang: "Redux", icon: <SiRedux /> },
 	{ lang: "Firebase", icon: <RiFirebaseFill /> },
 	{ lang: "Nest Js", icon: <SiNestjs /> },
 	{ lang: "Adonis Js", icon: <SiAdonisjs /> },
+	{ lang: "Github", icon: <FaGithub /> },
 ];
 
 export const contactArr = [
