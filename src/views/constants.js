@@ -7,7 +7,13 @@ import {
 	CoffeeOutlined,
 } from "@ant-design/icons";
 
-import { excuseMe, spillTheBeans, hotArtist, thankful } from "../assets";
+import {
+	excuseMe,
+	spillTheBeans,
+	hotArtist,
+	thankful,
+	carbonDating,
+} from "../assets";
 
 import { FaCss3Alt, FaReact, FaHtml5 } from "react-icons/fa";
 import { SiSass, SiRedux, SiNestjs, SiAdonisjs } from "react-icons/si";
@@ -88,6 +94,14 @@ export const contactArr = [
 ];
 
 export const projectArr = [
+	{
+		name: "Carbon Dating",
+		description:
+			"An innovative application that connects users through an interest-based matching algorithm. Matched users are organized into tiers based on their shared interests, offering a more refined and engaging experience compared to traditional dating apps like Tinder. Built with React, Firebase, and Tailwind CSS, the platform delivers a seamless and visually appealing user experience.",
+		github: "https://github.com/BrianYoon91/carbon-dating",
+		live: "https://carbondating.netlify.app/",
+		image: carbonDating,
+	},
 	{
 		name: "Spill The Beans",
 		description:
