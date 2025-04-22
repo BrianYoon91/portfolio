@@ -18,7 +18,7 @@ function App() {
 
 	return (
 		<div className="flex flex-col items-center justify-center min-h-screen m-2">
-			<div className="w-full max-w-lg">
+			<div className="w-full h-full max-w-lg">
 				<Card
 					style={{
 						height: "100%",

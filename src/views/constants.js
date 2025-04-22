@@ -13,6 +13,7 @@ import {
 	hotArtist,
 	thankful,
 	carbonDating,
+	todoList,
 } from "../assets";
 
 import { FaCss3Alt, FaReact, FaHtml5, FaGithub } from "react-icons/fa";
@@ -102,6 +103,14 @@ export const contactArr = [
 ];
 
 export const projectArr = [
+	{
+		name: "Todo List",
+		description:
+			"Using Typescript, React, Vite, Tailwind CSS to make a to do list with local storage function. Every dev has to make one of these right?",
+		github: "https://github.com/BrianYoon91/todo-typescript-practice",
+		live: "https://dulcet-shortbread-1ebbab.netlify.app/",
+		image: todoList,
+	},
 	{
 		name: "Carbon Dating",
 		description:
