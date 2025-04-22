@@ -13,8 +13,11 @@ export const Projects = () => {
 				const { name, description, github, live, image } = project;
 				return (
 					<>
-						<div className="m-5">
-							<div className="m-2 rounded border-2 border-pink-200 p-3">
+						<div className="m-5 h-full flex justify-center items-center">
+							<div
+								className="rounded border-2 border-pink-200 p-3 m-3
+							"
+							>
 								<Image
 									src={image}
 									style={{
