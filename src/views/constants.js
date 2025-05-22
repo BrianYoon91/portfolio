@@ -11,9 +11,8 @@ import {
 	excuseMe,
 	spillTheBeans,
 	hotArtist,
-	thankful,
-	carbonDating,
 	todoList,
+	hangman,
 } from "../assets";
 
 import { FaCss3Alt, FaReact, FaHtml5, FaGithub } from "react-icons/fa";
@@ -104,20 +103,19 @@ export const contactArr = [
 
 export const projectArr = [
 	{
+		name: "Hangman",
+		description: "Using Typescript, React, and Vite to make a classic game",
+		github: "https://github.com/BrianYoon91/hangmanisback",
+		live: "https://hangmanisback.netlify.app/",
+		image: hangman,
+	},
+	{
 		name: "Todo List",
 		description:
 			"Using Typescript, React, Vite, Tailwind CSS to make a to do list with local storage function. Every dev has to make one of these right?",
 		github: "https://github.com/BrianYoon91/todo-typescript-practice",
 		live: "https://dulcet-shortbread-1ebbab.netlify.app/",
 		image: todoList,
-	},
-	{
-		name: "Carbon Dating",
-		description:
-			"An innovative application that connects users through an interest-based matching algorithm. Matched users are organized into tiers based on their shared interests, offering a more refined and engaging experience compared to traditional dating apps like Tinder. Built with React, Firebase, and Tailwind CSS, the platform delivers a seamless and visually appealing user experience.",
-		github: "https://github.com/BrianYoon91/carbon-dating",
-		live: "https://carbondating.netlify.app/",
-		image: carbonDating,
 	},
 	{
 		name: "Spill The Beans",
@@ -135,14 +133,6 @@ export const projectArr = [
 			"https://github.com/BrianYoon91/brian-yoon-projectThree/tree/production",
 		live: "https://excuse-me.netlify.app/",
 		image: excuseMe,
-	},
-	{
-		name: "Thankful Mindful Grateful",
-		description:
-			"What we have around us is as important as what is to come. So once in a while write what you are thankful for and recite them to open up to newer and better things.",
-		github: "https://github.com/BrianYoon91/thankful-journal",
-		live: "https://thankful-mindful-grateful.netlify.app/",
-		image: thankful,
 	},
 	{
 		name: "Hot Artists",
