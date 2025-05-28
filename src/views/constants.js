@@ -13,6 +13,7 @@ import {
 	hotArtist,
 	todoList,
 	hangman,
+	noteTaker,
 } from "../assets";
 
 import { FaCss3Alt, FaReact, FaHtml5, FaGithub } from "react-icons/fa";
@@ -102,6 +103,14 @@ export const contactArr = [
 ];
 
 export const projectArr = [
+	{
+		name: "Journal & Note Taker",
+		description:
+			"Using Typescript, React, Boostrap, and Vite to make a note taking app with local storage and searchable tag function",
+		github: "https://github.com/BrianYoon91/note-taker",
+		live: "https://notetaker9000.netlify.app/",
+		image: noteTaker,
+	},
 	{
 		name: "Hangman",
 		description: "Using Typescript, React, and Vite to make a classic game",
