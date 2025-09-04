@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Carousel, Image, Button } from "antd";
 import { GithubOutlined, GlobalOutlined } from "@ant-design/icons";
 import { projectArr } from "./constants";

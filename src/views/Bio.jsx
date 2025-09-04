@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { techStack } from "./constants";
 import { Image } from "antd";
-import profilePic from "../assets/profilePic.jpg";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { Button } from "antd";

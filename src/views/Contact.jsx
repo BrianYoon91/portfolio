@@ -1,6 +1,4 @@
-import React from "react";
 import { contactArr } from "./constants";
-import { motion, AnimatePresence } from "framer-motion";
 
 const Contact = () => {
 	return (
