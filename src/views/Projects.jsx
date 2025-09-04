@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Carousel, Image, Button } from "antd";
 import { GithubOutlined, GlobalOutlined } from "@ant-design/icons";
 import { projectArr } from "./constants";
@@ -15,7 +15,7 @@ export const Projects = () => {
 					<>
 						<div className="m-5 min-h-72 flex justify-center items-center">
 							<div
-								className="rounded border-2 border-pink-200 p-3 m-3 flex flex-col gap-5
+								className="rounded border-2 border-white p-3 m-3 flex flex-col gap-5
 							"
 							>
 								<Image
@@ -27,7 +27,7 @@ export const Projects = () => {
 									preview={false}
 								/>
 								<div>
-									<h2 className="text-center text-[#eebbc3] text-xl">{name}</h2>
+									<h2 className="text-center text-white text-xl">{name}</h2>
 									<p>{description}</p>
 									<div className="m-5 grid grid-cols-4 gap-2">
 										<a
@@ -40,7 +40,7 @@ export const Projects = () => {
 												style={{
 													color: isGithubHovered ? "#eebbc3" : "#fffffe",
 													borderColor: isGithubHovered ? "#eebbc3" : "#fffffe",
-													backgroundColor: "#232946",
+													backgroundColor: "black",
 													width: "100%",
 												}}
 												icon={<GithubOutlined />}
@@ -58,7 +58,7 @@ export const Projects = () => {
 										>
 											<Button
 												style={{
-													backgroundColor: "#232946",
+													backgroundColor: "black",
 													color: isLiveHovered ? "#eebbc3" : "#fffffe",
 													borderColor: isLiveHovered ? "#eebbc3" : "#fffffe",
 													width: "100%",

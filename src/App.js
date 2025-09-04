@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Card } from "antd";
 import { Bio, Contact, Projects } from "./views";
 import { tabList } from "./views/constants";
+import { usePageView } from "./usePageview";
 
 const contents = {
 	bio: <Bio />,
@@ -11,6 +12,7 @@ const contents = {
 
 function App() {
 	const [activeTabKey, setActiveTabKey] = useState("bio");
+	usePageView();
 
 	const onTabChange = (key) => {
 		setActiveTabKey(key);
@@ -24,8 +26,8 @@ function App() {
 						height: "100%",
 						width: "100%",
 						minHeight: "300px",
-						backgroundColor: "#232946",
-						borderColor: "#eebbc3",
+						backgroundColor: "black",
+						borderColor: "white",
 					}}
 					tabList={tabList}
 					activeTabKey={activeTabKey}

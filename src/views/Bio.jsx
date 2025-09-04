@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { techStack } from "./constants";
 import { Image } from "antd";
-import profilePic from "../assets/profilePic.jpg";
 import { motion, AnimatePresence } from "framer-motion";
 
 import { Button } from "antd";
@@ -12,19 +11,22 @@ export default function Bio() {
 		<>
 			<div className="flex flex-col">
 				<TypeAnimation
+					className="type-anim"
 					sequence={["Hello!", 1000, "pineapple pizza lover!", 1000]}
 					speed={50}
 					style={{
-						fontSize: "1.5rem",
-						color: "#eebbc3",
+						fontSize: "2rem",
+						// color now handled by .type-anim (white); you can omit this line.
 					}}
 					repeat={Infinity}
 				/>
+
 				<div className="flex mt-3 gap-3 items-center shrink-0">
 					<Image
 						preview={false}
-						width={200}
-						src={profilePic}
+						width={380}
+						src="https://media1.tenor.com/m/i9xaK64oT-oAAAAd/sans-fight.gif"
+						alt="Sans fight"
 						style={{ borderRadius: "50%" }}
 					/>
 					<h2 className="text-lg font-medium mt-2">
@@ -57,9 +59,9 @@ export const TechStackMenu = ({ techStack }) => {
 				onClick={toggleVisibility}
 				className="mb-4"
 				style={{
-					backgroundColor: "#232946",
-					color: buttonHovered ? "#eebbc3" : "#fffffe",
-					borderColor: buttonHovered ? "#eebbc3" : "#fffffe",
+					backgroundColor: "#000", // pure black background
+					color: buttonHovered ? "#eebbc3" : "#fff", // accent when hovered
+					borderColor: buttonHovered ? "#eebbc3" : "#fff",
 					width: "100%",
 				}}
 				onMouseEnter={() => setIsButtonHovered(true)}
@@ -85,11 +87,11 @@ export const TechStackMenu = ({ techStack }) => {
 								whileHover={{ scale: 1.1 }}
 							>
 								{/* Tech Name */}
-								<span className="text-sm font-medium text-[#fffffe]">
+								<span className="text-sm font-medium text-white">
 									{tech.lang}
 								</span>
 								{/* Tech Icon with Hover Effects */}
-								<div className="text-3xl mt-1 text-[#fffffe] hover:text-[#eebbc3] hover:animate-spin transition-all duration-300">
+								<div className="text-3xl mt-1 text-white hover:text-[#eebbc3] hover:animate-spin transition-all duration-300">
 									{tech.icon}
 								</div>
 							</motion.div>
