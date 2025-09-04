@@ -1,51 +1,81 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Silkscreen:wght@400;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-* {
-	background-color: #232946;
-	font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+/* Prefer dark color scheme for UA defaults */
+:root {
+	color-scheme: dark;
 }
 
-h1 {
-	font-size: 2.5rem;
-	color: #e3e3e3;
-}
-
-p,
-h2,
-h3,
-a {
-	color: #fffffe;
-}
-
-.ant-tabs-tab-icon {
-	color: #fffffe;
-}
-
-.ant-tabs-tab-btn span {
-	color: #fffffe;
-}
-
-.ant-card-body {
-	padding: 0;
-}
-
-button.slick-arrow.slick-next {
-	color: #eebbc3;
-}
-
+html,
 body {
 	margin: 0;
 	padding: 0;
-	font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	background: #000; /* black background */
+	color: #fff; /* white text */
+	font-family: "Silkscreen", ui-sans-serif, system-ui, sans-serif !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+h1,
+h2,
+h3,
+p,
+a,
+span,
+button {
+	font-family: "Silkscreen";
+}
+
+/* Headings, text, links */
+h1 {
+	font-size: 2.5rem;
+}
+p,
+h2,
+h3,
+a {
+	color: #fff;
+}
+
+.ant-card,
+.ant-card-body {
+	background: #000;
+	color: #fff;
+}
+.ant-tabs,
+.ant-tabs-content,
+.ant-tabs-nav,
+.ant-tabs-tab {
+	color: #fff;
+	background: #000;
+	font-family: "Silkscreen";
+}
+.ant-tabs-tab-icon,
+.ant-tabs-tab-btn span {
+	color: #fff;
+}
+.ant-tabs-ink-bar {
+	background: #fff;
+}
+
+.ant-btn {
+	font-family: "Silkscreen";
+}
+
+/* Slick arrows */
+button.slick-arrow,
+button.slick-arrow.slick-next,
+button.slick-arrow.slick-prev {
+	color: #fff;
+}
+
+/* Use Doto ONLY for the typing animation */
+.type-anim {
+	font-family: "Doto", ui-sans-serif, system-ui, sans-serif;
+	color: #fff; /* white to match the theme */
 }

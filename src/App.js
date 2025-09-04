@@ -26,8 +26,8 @@ function App() {
 						height: "100%",
 						width: "100%",
 						minHeight: "300px",
-						backgroundColor: "#232946",
-						borderColor: "#eebbc3",
+						backgroundColor: "black",
+						borderColor: "white",
 					}}
 					tabList={tabList}
 					activeTabKey={activeTabKey}
