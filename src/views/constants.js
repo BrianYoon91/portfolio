@@ -14,15 +14,23 @@ import {
 	todoList,
 	hangman,
 	noteTaker,
+	potatoTime,
 } from "../assets";
 
-import { FaCss3Alt, FaReact, FaHtml5, FaGithub } from "react-icons/fa";
+import {
+	FaCss3Alt,
+	FaReact,
+	FaHtml5,
+	FaGithub,
+	FaNodeJs,
+} from "react-icons/fa";
 import {
 	SiSass,
 	SiRedux,
 	SiNestjs,
 	SiAdonisjs,
 	SiTypescript,
+	SiNextdotjs,
 } from "react-icons/si";
 import {
 	RiTailwindCssFill,
@@ -61,6 +69,8 @@ export const techStack = [
 	{ lang: "Nest Js", icon: <SiNestjs /> },
 	{ lang: "Adonis Js", icon: <SiAdonisjs /> },
 	{ lang: "Github", icon: <FaGithub /> },
+	{ lang: "Next Js", icon: <SiNextdotjs /> },
+	{ lang: "Node Js", icon: <FaNodeJs /> },
 ];
 
 export const contactArr = [
@@ -103,6 +113,14 @@ export const contactArr = [
 ];
 
 export const projectArr = [
+	{
+		name: "Potato Time",
+		description:
+			"Using Next.Js, Typescript, Headless UI, and Tailwind CSS to recommend you a random movie or a show. Perfect for indecisive people like me and you : )",
+		github: "https://github.com/BrianYoon91/itspotatotime",
+		live: "https://potatotime.netlify.app/",
+		image: potatoTime,
+	},
 	{
 		name: "Journal & Note Taker",
 		description:
