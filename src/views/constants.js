@@ -114,6 +114,14 @@ export const contactArr = [
 
 export const projectArr = [
 	{
+		name: "Spill The Beans",
+		description:
+			"An application that summarizes any movie plot with only GIFs. It has the capability to generate a different GIF, and save or delete GIFs that you like. Built using HTML, CSS, React, Firebase, and integrated with two API's. Made with good friends",
+		github: "https://github.com/spill-the-beans/spill-the-beans",
+		live: "https://spillbeantest.netlify.app/",
+		image: spillTheBeans,
+	},
+	{
 		name: "Potato Time",
 		description:
 			"Using Next.Js, Typescript, Headless UI, and Tailwind CSS to recommend you a random movie or a show. Perfect for indecisive people like me and you : )",
@@ -143,14 +151,6 @@ export const projectArr = [
 		github: "https://github.com/BrianYoon91/todo-typescript-practice",
 		live: "https://dulcet-shortbread-1ebbab.netlify.app/",
 		image: todoList,
-	},
-	{
-		name: "Spill The Beans",
-		description:
-			"An application that summarizes any movie plot with only GIFs. It has the capability to generate a different GIF, and save or delete GIFs that you like. Built using HTML, CSS, React, Firebase, and integrated with two API's. Made with good friends",
-		github: "https://github.com/spill-the-beans/spill-the-beans",
-		live: "https://spillbeantest.netlify.app/",
-		image: spillTheBeans,
 	},
 	{
 		name: "Excuse Me",
