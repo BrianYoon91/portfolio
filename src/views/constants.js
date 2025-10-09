@@ -124,7 +124,7 @@ export const projectArr = [
 	{
 		name: "Potato Time",
 		description:
-			"Using Next.Js, Typescript, Headless UI, and Tailwind CSS to recommend you a random movie or a show. Perfect for indecisive people like me and you : )",
+			"Using Next.Js, Typescript, Headless UI, and Tailwind CSS to recommend you a random movie or a show. Using server side rendering, it is perfect for indecisive people like me and you : )",
 		github: "https://github.com/BrianYoon91/itspotatotime",
 		live: "https://potatotime.netlify.app/",
 		image: potatoTime,
